@@ -5,6 +5,8 @@
 /out-tsc
 /bazel-out
 **/.angular/
+package-lock.json
+yarn.lock
 
 # Node
 **/node_modules/
@@ -40,3 +42,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# .Net build output
+**/bin/
+**/obj/
